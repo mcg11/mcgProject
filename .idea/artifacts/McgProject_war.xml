@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="McgProject:war">
+    <output-path>$PROJECT_DIR$/McgProject Maven Webapp/target</output-path>
+    <root id="archive" name="McgProject.war">
+      <element id="artifact" artifact-name="McgProject:war exploded" />
+    </root>
+  </artifact>
+</component>
