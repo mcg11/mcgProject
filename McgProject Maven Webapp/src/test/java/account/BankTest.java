@@ -108,7 +108,9 @@ public class BankTest {
 		
 		System.out.println(resultContent);
 	}
-	
+
+
+
 	/**
 	 * 根据uid查询名下的银行卡
 	 * @throws Exception 
