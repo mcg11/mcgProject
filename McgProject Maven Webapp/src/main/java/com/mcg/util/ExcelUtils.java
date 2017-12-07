@@ -20,8 +20,8 @@ public class ExcelUtils {
 	 * @throws IOException
 	 */
 	public List<Object> importExceltoList(String fileUrl) throws IOException{
-    	
-    	InputStream is = new FileInputStream(fileUrl);//fileUrl如：d:\\111.xlsx"
+
+        InputStream is = new FileInputStream("C://");//fileUrl如：d:\\.xlsx"
 		XSSFWorkbook xssfWorkbook = new XSSFWorkbook(is);
 		XSSFSheet xssfSheet = xssfWorkbook.getSheetAt(0);
 		int rowNum = xssfSheet.getLastRowNum();
