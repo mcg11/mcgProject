@@ -43,7 +43,7 @@ public class GetADetailTest extends BaseControllerWebAppContextSetupTest {
 		// json数据
 		String uid;
 		//String[] uids = {"﻿53bf1777-b485-7656-9f08-0cb30d38c5e5" };
-	String[] uids = {"b481df97-8c4e-4819-ac1b-fff265578935" };
+	String[] uids = {"40a73a6d-9fdc-48dc-b59e-22de40e0b9e7" };
 		System.out.println(uids.length);
 		InputStream resultContentInputStream = null;
 		for (int i = 0; i < uids.length; i++) {
@@ -55,7 +55,7 @@ public class GetADetailTest extends BaseControllerWebAppContextSetupTest {
 			}
 			JSONObject jsonObjGetADetail = new JSONObject();
 			jsonObjGetADetail.put("uid", uid);
-			jsonObjGetADetail.put("city_code", "100001");
+			jsonObjGetADetail.put("city_code", "801300");
 			
 			
 			

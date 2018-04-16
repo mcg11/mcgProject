@@ -77,7 +77,8 @@ public class PassAccountTest extends BaseControllerWebAppContextSetupTest {
 		// System.out.println(encryption3);
 
 		//String refundUrl = "http://account.t.ziroom.com/passAccount.html";
-        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/passAccount.do";
+//        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/passAccount.do";
+        String refundUrl = "http://localhost:8083/account/passAccount.do";
 		String url = refundUrl + encryption3;
 
 		System.out.println(url);

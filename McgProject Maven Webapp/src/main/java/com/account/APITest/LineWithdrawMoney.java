@@ -385,4 +385,43 @@ public class LineWithdrawMoney extends BaseControllerWebAppContextSetupTest impl
 
 
     }
+
+    @Test
+    public void getUidCityDetails() throws Exception {
+        // json数据
+        JSONObject jsonObjFrozenAccount = new JSONObject();
+        jsonObjFrozenAccount.put("uid", "db609bbc-f04e-4653-b47b-84db8376f148");
+        jsonObjFrozenAccount.put("systemSource", "dz");
+        jsonObjFrozenAccount.put("cityCode", "801000");
+
+        // jsonObjFrozenAccount.put("pay_time", "2015-09-09 20:05:21");
+        // 加密
+        Map<String, String> resultMap = EncryptionUtil.encryptionWay(
+                jsonObjFrozenAccount.toString(), key_ziroom);
+        String encryption = (String) resultMap.get("encryption");
+        if (encryption.equals("")) {
+            logger.error((String) resultMap.get("error"));
+            return;
+        }
+        // 打印传递的参数
+        logger.info(encryption);
+
+        String encryption1 = encryption.replace("/", "%2F");
+        String encryption2 = encryption1.replace("+", "%2B");
+        String encryption3 = encryption2.replace("=", "%3D");
+
+        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/lineWithdrawMoney/getUidCityDetails.do";
+        String url = refundUrl + encryption3;
+
+        System.out.println(url);
+
+        InputStream resultContentInputStream = NetUtil.sendPostRequest(
+                refundUrl, resultMap);
+
+        String resultContent = NetUtil.getTextContent(resultContentInputStream,
+                "UTF-8");
+        System.out.println(resultContent);
+
+
+    }
 }

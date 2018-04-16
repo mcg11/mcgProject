@@ -61,14 +61,15 @@ public class WhiteTipQryActionTest {
     }
     @Test
     public void tttt()throws Exception{
-        String a="J4240q+WyUIDX+/vwSJVesoTYyYM8retj1zQ9G2ZaC0E0dwCK50IqDnPzi1VzFE+QFiX+9qyfiwaJl+bWvGiw3YUbqaEwJQz8ObD/eIcMsukbmpwgNsWqBo7zmnM2hwkLGoS7mTNcYQRd5pw8Vr/At5Hj9FmR3l/UuUrLGnnnoAdoOyV6mYYEjVWIVdKeuqs65ka8ur3J+LnsNUE98YSY8ZRAWPpf4r0BRPdwdiXmcR31fJ3aQZWcUCCX+6UNAX67MQvTuTcmQ7kFx7T5I2MyxbJVUk9PG6+rAtXHC2pW1J8PQr0GHTSBKuec2pBROWXlOBKV2OOogWqx3e2k+pRBx1oHIUazHEfjXGIZcPHeKsgaVZFz0lQv4eI2TjTxsEEwXAWkb5Up9RbCY73n8DKRBgpBrf1RA9W54QAUUqs8gUKBD0Pvvqg0q9mREAOOcyZCpMWfZ6+aqj2mpnikDyLWzFsm+fIUJEDKflT4dU9ssed8OMvY+HkPPsNBo7E4JKlh27Grkt4RzAvhq9dEBUoiKGGSuspxYfofx9wX0lzyQIoz4Lsg6Z4PtZV6FYhoEIyQtDJVPVb7FxkP3SvH6XHXJPKA3r6wInLxVHZjX+HTxbjsT8TOBvThAPXSJIczUA5snbi61CIV2S8zonct4HsF7H45w9SDai6Edp+g2RUwI3dqv1EQHr3ZnUdFxJFp9IMU2W62xhu9aEydXQjPL50iFoezX8wfbI7PTAOnwTVgRiUbPhJR/JbzW44wSrZyR1vt8v1lHbb1t3L5UZr/Rh1xsoOSpXala07xnRqgTVM8/TNHVw7ZigDwQGBhiSnuES84pA0Wu5JoTh546y2FxhVvBf8RFDLwYK3F6yHzT7JdrH+i5D7iOI/elOoOBMY4Y7w0uqbg7WWYkQB3fUJQv9tXc1A1Skg2TTLxwnTb+oeJ1WOYk9f03bWRpKg/PR2iE43qBY+N/D6vesdoZBMbbQiZByNYKdwj8S/BGDqn8bq1sNzJ9I9Za8BAIh5JUd1Q4v4";
+        String a="nySQT/kjaTU0pIDS55qf1rBBgao2l9R57kqmPTXNFt0Pe94OGNOhE9IeVZmRuT8YjFO/oSHG1HH+XmppMRNzVnroOiVTh7dEtRAF6ldsnmTQu4syD7hi0QM1pMQUTdMcLuGRG8DAjc9ehi60CYsSLkfzjBczzssEvT0FXKAvpVPKBAJF/3dSOfawlEccdaWDS9QLmwuXnIi1DVCdIZe3jH2lCG8FY/r2d7fPaLtfqtc3dLaiV/20f0hU1BTDeSd2iKhYzMd0wnpBpoe2u9hn6npI+MapyyXv1JO30fX4XRqL28jfW/IhV1XEC8F8w/K7i2i4fKULP+wbASeHJ8UXqHeHBMPjrZTftaIuS8phSQ3bk6L5il0TGxy6Exc0mpXBKJH7dPqNd2atGUsPr6gv20I5P5Hd8BfpLmPLL60V3gp3w36smWf2EtoQhBQuIhE6";
         //String result = DesBase64Tool.desDecrypt(a, "8w091ql5l2tt6qxj3z0emh21");
         String result = DesBase64Tool.desDecrypt("0884e837817903f1",a);
 //        CryptAES.AES_Encrypt(PERINFOKEY, bizInfo)
-        result = CryptAES.AES_Decrypt("0884e837817903f1", a);
+        result = CryptAES.AES_Decrypt("6sijeebzyy4npwys", a);
         //'encryption = DesBase64Tool.desDecrypt(encryption, key);
 
         logger.info("解密后:"+result);
+
 
     }
 }

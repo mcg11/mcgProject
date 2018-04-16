@@ -40,16 +40,16 @@ public class RfrozenAccountTest extends BaseControllerWebAppContextSetupTest {
 		// json数据
 		JSONObject jsonObjRfrozenAccount = new JSONObject();
 		jsonObjRfrozenAccount
-				.put("uid", "6afbdb1a-03f0-4640-81f1-37a59db8d6aa");
-		jsonObjRfrozenAccount.put("total_fee", 1000000);
+				.put("uid", "9804bc5c-c992-9470-1c33-2b8d93012be3");
+		jsonObjRfrozenAccount.put("total_fee", 878000);
 		jsonObjRfrozenAccount.put("biz_common", "frozen_to_reduce_web");
 		// jsonObjRfrozenAccount.put("description", TESTFALG + "消耗用户冻结金额");
 		jsonObjRfrozenAccount.put("pay_type", null);
-		jsonObjRfrozenAccount.put("city_code", 801000);
+		jsonObjRfrozenAccount.put("city_code", 100002);
         List<Map<String,String>> list=new ArrayList<Map<String,String>>();
         Map<String,String> map=new HashMap<String, String>();
-        map.put("order_id","WXAPP146603888896511528265801000");
-        map.put("total_free","878800");
+        map.put("order_id","201510141130571");
+        map.put("total_free","264100");
         list.add(map);
 
 		jsonObjRfrozenAccount.put("order_id",list);
@@ -71,7 +71,7 @@ public class RfrozenAccountTest extends BaseControllerWebAppContextSetupTest {
 
 		// System.out.println(encryption3);
 
-		//String refundUrl = "http://localhost:8080/account/rfrozenAccount.do";
+//		String refundUrl = "http://localhost:8083/account/rfrozenAccount.do";
 		String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/rfrozenAccount.do";
         String url = refundUrl + encryption3;
 

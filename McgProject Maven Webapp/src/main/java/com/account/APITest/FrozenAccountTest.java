@@ -41,13 +41,13 @@ public class FrozenAccountTest extends BaseControllerWebAppContextSetupTest {
 		// json数据
 		JSONObject jsonObjFrozenAccount = new JSONObject();
 		jsonObjFrozenAccount.put("uid", "7b7dac3e-80e7-490d-91d4-4d3a8eaf2eac");
-		jsonObjFrozenAccount.put("trade_no", "WXAPP150116292736010395000310000");
-		jsonObjFrozenAccount.put("total_fee", 227912);
+		jsonObjFrozenAccount.put("trade_no", "20160912193128190191973");
+		jsonObjFrozenAccount.put("total_fee", 878000);
 		jsonObjFrozenAccount.put("biz_common", "pay_to_account_froze");
 		jsonObjFrozenAccount.put("description", "zrpay");
 		// jsonObjFrozenAccount.put("description", TESTFALG + "增加账户冻结余额");
 		jsonObjFrozenAccount.put("pay_type", "wx_ad_pay");
-		jsonObjFrozenAccount.put("city_code", "310000");
+		jsonObjFrozenAccount.put("city_code", "801000");
 		// jsonObjFrozenAccount.put("pay_time", "2015-09-09 20:05:21");
 		// 加密
 		Map<String, String> resultMap = EncryptionUtil.encryptionWay(

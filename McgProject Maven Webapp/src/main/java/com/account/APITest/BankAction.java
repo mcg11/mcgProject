@@ -104,16 +104,44 @@ public class BankAction  extends BaseControllerWebAppContextSetupTest{
 
         // + result.andReturn().getResponse().getContentAsString());
     }
-    public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
-        int value = scanner.nextInt();
-        final int[] values = {1000,500,100,50,20,10,5,1};
-        int count = 0;
-        for (int i = 0 ; i < values.length; i++){
-            int num = value / values[i];
-            value -= num * values[i];
-            count += num;
+  @Test
+    public void getUserBankCardAccount() throws Exception {
+
+        // json数据
+        JSONObject jsonObjRfrozenAccount = new JSONObject();
+        jsonObjRfrozenAccount.put("uid", "49235a1f-8f41-4951-85dd-f9af324dc034");
+        jsonObjRfrozenAccount.put("systemSource", "mbs");
+        List<Map<String,String>> list=new ArrayList<Map<String,String>>();
+        // 加密
+        Map<String, String> resultMap = EncryptionUtil.encryptionWay(
+                jsonObjRfrozenAccount.toString(), key_ziroom);
+        String encryption = (String) resultMap.get("encryption");
+        if (encryption.equals("")) {
+            logger.error((String) resultMap.get("error"));
+            return;
         }
-        System.out.println(count);
+
+        // 打印传递的参数
+        logger.info(encryption);
+
+        String encryption1 = encryption.replace("/", "%2F");
+        String encryption2 = encryption1.replace("+", "%2B");
+        String encryption3 = encryption2.replace("=", "%3D");
+
+        //String refundUrl = "http://localhost:8080/account/rfrozenAccount.do";
+        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/bankAccount/getUserBankCardAccount.do";
+        String url = refundUrl + encryption3;
+
+        System.out.println(url);
+
+        InputStream resultContentInputStream = NetUtil.sendPostRequest(
+                refundUrl, resultMap);
+
+        String resultContent = NetUtil.getTextContent(resultContentInputStream,
+                "UTF-8");
+        System.out.println(resultContent);
+
+        // + result.andReturn().getResponse().getContentAsString());
     }
+
 }

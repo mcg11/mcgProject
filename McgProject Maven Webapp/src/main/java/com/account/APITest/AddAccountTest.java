@@ -50,7 +50,7 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
         // json数据
         JSONObject jsonObjAddAccount = new JSONObject();
         jsonObjAddAccount.put("uid", "8098e4a0-5578-4d9a-b92b-f972daad51f6");
-        jsonObjAddAccount.put("trade_no", "WXPAY150893543656512053310000xianxiadakuan");
+        jsonObjAddAccount.put("trade_no", "WXPAY150893543656512053310000xianxiadak1");
         jsonObjAddAccount.put("total_fee", 404900);
         jsonObjAddAccount.put("biz_common", "zch_settlement");//
         // 账户充值业务类型
@@ -61,8 +61,8 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
         jsonObjAddAccount.put("description", "addAccount");
         jsonObjAddAccount.put("city_code", "801000");
         jsonObjAddAccount.put("pay_type", "wx_ios_pay");
-        jsonObjAddAccount.put("sys_source", "dz");
-        jsonObjAddAccount.put("order_id", "WXPAY150893543656512053310000xianxiadakuan");
+        jsonObjAddAccount.put("sys_source", "finance");
+        jsonObjAddAccount.put("order_id", "WXPAY150893543656512053310000xianxiadan1");
         // 加密
         Map<String, String> resultMap = EncryptionUtil.encryptionWay(
                 jsonObjAddAccount.toString(), key_ziroom);
@@ -78,9 +78,9 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
 
         // System.out.println(encryption3);
 
-        //String refundUrl = "http://localhost:8080/account/addAccount.do";
+        String refundUrl = "http://localhost:8083/account/addAccount.do";
 //		String refundUrl = "http://account.ziroom.com/addAccount.html";
-        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/addAccount.do";
+//        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/addAccount.do";
         String url = refundUrl + encryption3;
         System.out.println(url);
 

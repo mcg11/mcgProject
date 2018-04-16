@@ -54,8 +54,8 @@ public class ReduceAccountTest extends BaseControllerWebAppContextSetupTest {
 
 		// json数据
 		JSONObject jsonObjReduceAccount = new JSONObject();
-		jsonObjReduceAccount.put("uid", "27464427-30cd-58f0-72de-cbd85bc5f7bd");
-		jsonObjReduceAccount.put("total_fee",359000);
+		jsonObjReduceAccount.put("uid", "95959a30-aa99-7bd0-40c9-eb0d1faa4f52");
+		jsonObjReduceAccount.put("total_fee",878000);
 		jsonObjReduceAccount.put("city_code", "801000");
 
 		jsonObjReduceAccount.put("description", "budan");
@@ -79,8 +79,8 @@ public class ReduceAccountTest extends BaseControllerWebAppContextSetupTest {
 		// System.out.println(encryption3);
 
 //		String refundUrl = "http://account.ziroom.com/reduceAccount.html";
-		String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/reduceAccount.do";
-		//String refundUrl = "http://localhost:8080/account/reduceAccount.do";
+//		String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/reduceAccount.do";
+		String refundUrl = "http://localhost:8083/account/reduceAccount.do";
 
 		String url = refundUrl + encryption3;
 

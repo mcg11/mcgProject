@@ -20,7 +20,7 @@ public class AddTaskByTradeNoTest extends BaseControllerWebAppContextSetupTest {
 //
 //
 		String tradeNo;
-		String[] tradeNos = {"W1505311025d"};
+		String[] tradeNos = {"BJD1502277126420150227171002"};
 
 		logger.info(tradeNos.length);
 
