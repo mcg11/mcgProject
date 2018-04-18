@@ -1,51 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3e026e9-5487-434b-ad4d-fa3934649a8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicLongTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ReceMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/SendMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/util/ConsistentHash.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/util/HashFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d:aaaamcg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d:aaaamcg.log.2017-08-29" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d:aaaamcg.log.2017-11-29" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/orderCenter/OrderInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/util/HttpUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/zwhite/MethodClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/zwhite/NotifyTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/zwhite/Student.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/McgProject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/McgProject_war_exploded.xml" />
+    <list default="true" id="a3e026e9-5487-434b-ad4d-fa3934649a8c" name="Default" comment="gitignore">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/McgProject.iml" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/McgProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/pom.xml" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/AddAccountTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/AddAccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/AddTaskByTradeNoTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/AddTaskByTradeNoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/BankAction.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/BankAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/ConstantValue.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/ConstantValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/FTobalanceAccountTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/FTobalanceAccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/FrozenAccountTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/FrozenAccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/GetADetailTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/GetADetailTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/LineWithdrawMoney.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/LineWithdrawMoney.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/PassAccountTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/PassAccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/ReduceAccountTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/ReduceAccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/RfrozenAccountTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/RfrozenAccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/WithdrawMoneyDetailTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/WithdrawMoneyDetailTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/getAllDetails.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/account/APITest/getAllDetails.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/BizEntity.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/BizEntity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/BizEntityHelper.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/BizEntityHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/CallbackOrderEntityVo.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/CallbackOrderEntityVo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/CallbackReqVo.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/CallbackReqVo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/ResponseBaseVo.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/ResponseBaseVo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/WhiteTipNotifyActionTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/WhiteTipNotifyActionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/WhiteTipQryActionTest.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/jpayment/WhiteTipQryActionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/resources/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java" afterPath="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java" />
     </list>
     <ignored path="McgProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,14 +41,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectionUtils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnectionUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomicUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AtomicUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -333,10 +296,10 @@
         <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/zwhite/MethodClass.java" />
         <option value="$PROJECT_DIR$/McgProject Maven Webapp/pom.xml" />
         <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/SendMsg.java" />
-        <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java" />
         <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ReceMsg.java" />
         <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicLongTest.java" />
         <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicUtils.java" />
+        <option value="$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java" />
       </list>
     </option>
   </component>
@@ -686,6 +649,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/hehaifeng/ziroom/McgProject/McgProject Maven Webapp/src/main/java/com/atomic/AtomicUtils.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1795,16 +1759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/SendMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1921,6 +1875,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicLongTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1931,10 +1893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/atomic/AtomicUtils.java">
+    <entry file="file://$PROJECT_DIR$/McgProject Maven Webapp/src/main/java/com/mq/ConnectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

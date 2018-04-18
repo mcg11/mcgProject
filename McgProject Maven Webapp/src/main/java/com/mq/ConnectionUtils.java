@@ -18,6 +18,10 @@ public class ConnectionUtils {
         factory.setPassword("mcg");
         factory.setVirtualHost("/testmq");
         return factory.newConnection();
+
+
+
+
     }
 
 
