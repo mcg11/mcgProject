@@ -26,14 +26,14 @@ public class WithdrawMoneyDetailTest extends BaseControllerWebAppContextSetupTes
         JSONObject jsonObjFrozenAccount = new JSONObject();
         jsonObjFrozenAccount.put("systemSource", "wz");
         jsonObjFrozenAccount.put("bankArea", "北京市");
-        jsonObjFrozenAccount.put("applicationTime", "2018-03-20 09:42:10");
+        jsonObjFrozenAccount.put("applicationTime", "2017-07-20 09:42:10");
         jsonObjFrozenAccount.put("wmAmount", 1);
-        jsonObjFrozenAccount.put("wmUid","94b347b7-9c5e-4be1-917f-9ae661720883");
-        jsonObjFrozenAccount.put("bankCode",1106);
-        jsonObjFrozenAccount.put("bankNum",  "6226680205237195");
-        jsonObjFrozenAccount.put("bankName",   "中国光大银行");
-        jsonObjFrozenAccount.put("wmName",  "马春格");
-        jsonObjFrozenAccount.put("uniqueNo","1w5e3345794c63e438");
+        jsonObjFrozenAccount.put("wmUid","32d25b82-3861-550f-7942-4a9005731da3");
+        jsonObjFrozenAccount.put("bankCode",1100);
+        jsonObjFrozenAccount.put("bankNum",  "62148301143004281");
+        jsonObjFrozenAccount.put("bankName",   "招商银行股份有限公司");
+        jsonObjFrozenAccount.put("wmName",  "张志琼");
+        jsonObjFrozenAccount.put("uniqueNo","1w5e45794c69d3cee712564eb3374882da8f");
 
        // jsonObjFrozenAccount.put("pay_time", "2015-09-09 20:05:21");
         // 加密
@@ -51,8 +51,8 @@ public class WithdrawMoneyDetailTest extends BaseControllerWebAppContextSetupTes
         String encryption2 = encryption1.replace("+", "%2B");
         String encryption3 = encryption2.replace("=", "%3D");
 
-        String refundUrl = "http://localhost:8083/account/withdrawMoney/createWithdrawCash.do";
-//        String refundUrl = "http://account.q.ziroom.com/withdrawMoney/createWithdrawCash.html";
+//        String refundUrl = "http://localhost:8083/account/withdrawMoney/createWithdrawCash.do";
+        String refundUrl = "http://account.q.ziroom.com/withdrawMoney/createWithdrawCash.html";
         String url = refundUrl + encryption3;
 
         System.out.println(url);

@@ -1,0 +1,19 @@
+2017-08-29 10:05:19,849-[TS] INFO main com.account.APITest.AddAccountTest 111 sync.wtpay.last.time：2017-08-08 12:00:00
+2017-08-29 10:05:33,236-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-08 12:00:00 calendarType = 12 timeNum = 25 formatStr = null
+2017-08-29 10:05:40,019-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-08 12:00:00 calendarType = 12 timeNum = 5 formatStr = null
+2017-08-29 10:06:14,200-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:05:00 calendarType = 12 timeNum = -20 formatStr = null
+2017-08-29 10:11:19,958-[TS] INFO main com.account.APITest.AddAccountTest 111 sync.wtpay.last.time：2017-08-29 10:00:00
+2017-08-29 10:12:46,958-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:00:00 calendarType = 12 timeNum = 25 formatStr = null
+2017-08-29 10:13:09,352-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:00:00 calendarType = 12 timeNum = 5 formatStr = null
+2017-08-29 10:13:14,386-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:10:00 calendarType = 12 timeNum = -20 formatStr = null
+2017-08-29 10:13:18,646-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:10:00 calendarType = 12 timeNum = -20 formatStr = null
+2017-08-29 10:14:30,377-[TS] INFO main com.account.APITest.AddAccountTest 111 sync.wtpay.last.time：2017-08-29 10:00:00
+2017-08-29 10:14:35,835-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:00:00 calendarType = 12 timeNum = 25 formatStr = null
+2017-08-29 10:14:47,586-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:00:00 calendarType = 12 timeNum = 5 formatStr = null
+2017-08-29 10:14:50,798-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:10:00 calendarType = 12 timeNum = -20 formatStr = null
+2017-08-29 10:14:50,799-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:10:00 calendarType = 12 timeNum = -20 formatStr = null
+2017-08-29 10:15:00,007-[TS] INFO main com.account.APITest.AddAccountTest 111 sync.wtpay.last.time：2017-08-29 10:20:00
+2017-08-29 10:15:04,012-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:20:00 calendarType = 12 timeNum = 25 formatStr = null
+2017-08-29 10:15:04,526-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:20:00 calendarType = 12 timeNum = 5 formatStr = null
+2017-08-29 10:15:35,282-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:15:00 calendarType = 12 timeNum = -20 formatStr = null
+2017-08-29 10:15:48,891-[TS] DEBUG main com.ziroom.common.util.DateUtil 302 传进来的参数分别为：timeStr = 2017-08-29 10:15:00 calendarType = 12 timeNum = -20 formatStr = null
