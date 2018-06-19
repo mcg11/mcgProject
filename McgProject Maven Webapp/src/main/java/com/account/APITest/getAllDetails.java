@@ -25,7 +25,7 @@ public class getAllDetails  extends BaseControllerWebAppContextSetupTest{
 
         // json数据
         JSONObject jsonObjAddAccount = new JSONObject();
-        jsonObjAddAccount.put("uid", "8098e4a0-5578-4d9a-b92b-f972daad51f6");
+        jsonObjAddAccount.put("uid", "7a54a7b7-b15d-c335-486e-ca3a58482182");
         jsonObjAddAccount.put("systemSource", "dz");
         // 账户充值业务类型
         // jsonObjAddAccount.put("description",
@@ -138,5 +138,14 @@ public class getAllDetails  extends BaseControllerWebAppContextSetupTest{
 
     }
 
+    @Test
+    public void test(){
+        String code1="MIIGJgYJKoZIhvcNAQcCoIIGFzCCBhMCAQExCzAJBgUrDgMCGgUAMIHIBgkqhkiG9w0BBwGggboEgbc4YTkwOGYwOTYzOTRiNzYyMDE2MzlhZDU4MmRhMDEzZV80YmQ4NzdhMS0zN2E1LTRkYTMtOGQzZS0xOWUxZDNiNzU1YjVfMV8zNjIzMjQxOTkwMDUzMDYwNTJfM19TYXQgTWF5IDI2IDAwOjAwOjAwIENTVCAyMDE4X1R1ZSBTZXAgMjUgMDA6MDA6MDAgQ1NUIDIwMThfOGE5MGEzYWI1N2U3MDU0YTAxNTdlNzQzYzM2ODA0N2WgggPgMIID3DCCAsSgAwIBAgIUQMy0IeBt4HWEm5npQCdm7f9HPZgwDQYJKoZIhvcNAQEFBQAwgZAxCzAJBgNVBAYTAkNOMTMwMQYDVQQKDCrljJfkuqzoh6rlpoLlj4vlrrbotYTkuqfnrqHnkIbmnInpmZDlhazlj7gxFTATBgNVBAsMDOaKgOacr";
+        String code2="MIIGJgYJKoZIhvcNAQcCoIIGFzCCBhMCAQExCzAJBgUrDgMCGgUAMIHIBgkqhkiG9w0BBwGggboEgbc4YTkwOGYwOTYzOTRiNzYyMDE2MzlhZDU4MmRhMDEzZV80YmQ4NzdhMS0zN2E1LTRkYTMtOGQzZS0xOWUxZDNiNzU1YjVfMV8zNjIzMjQxOTkwMDUzMDYwNTJfM19TYXQgTWF5IDI2IDAwOjAwOjAwIENTVCAyMDE4X1R1ZSBTZXAgMjUgMDA6MDA6MDAgQ1NUIDIwMThfOGE5MGEzYWI1N2U3MDU0YTAxNTdlNzQzYzM2ODA0N2WgggPgMIID3DCCAsSgAwIBAgIUQMy0IeBt4HWEm5npQCdm7f9HPZgwDQYJKoZIhvcNAQEFBQAwgZAxCzAJBgNVBAYTAkNOMTMwMQYDVQQKDCrljJfkuqzoh6rlpoLlj4vlrrbotYTkuqfnrqHnkIbmnInpmZDlhazlj7gxFTATBgNVBAsMDOaKgOacr";
+
+       if( code1.equals(code2)){
+           logger.info("一样");
+       }
+    }
 
 }

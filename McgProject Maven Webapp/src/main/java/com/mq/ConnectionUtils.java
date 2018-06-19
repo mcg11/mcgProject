@@ -19,11 +19,6 @@ public class ConnectionUtils {
         factory.setVirtualHost("/testmq");
         return factory.newConnection();
 
-
-
-
-
-
     }
 
 

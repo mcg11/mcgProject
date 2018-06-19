@@ -3,6 +3,8 @@ package com.atomic;
 import com.account.APITest.BaseControllerWebAppContextSetupTest;
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
@@ -25,8 +27,13 @@ public class AtomicLongTest extends BaseControllerWebAppContextSetupTest {
     }
     @Test
     public void  aaaa(){
-        String aa=null;
-        String.valueOf(aa);
-        System.out.println(aa);
+        String aa="3,4,55,6";
+        String[] aaa=aa.split(",");
+        List b= Arrays.asList(aaa);
+
+        if(b.contains("6")){
+            System.out.println(b);
+        }
+
     }
 }

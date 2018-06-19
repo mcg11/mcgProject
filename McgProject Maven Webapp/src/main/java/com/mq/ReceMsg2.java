@@ -7,11 +7,11 @@ import java.io.IOException;
 /**
  * Created by macg11 on 2018/4/16.
  */
-public class ReceMsg {
+public class ReceMsg2 {
 
-    private static String QEUE_NAME="testtopic1";
-
+    private static String QEUE_NAME="testtopic2";
     private static String EXCHAGE_NAME="test_exchange_topic";
+
 
     public static void main(String[] args)throws Exception{
         Connection connection=ConnectionUtils.getConnection();
@@ -19,19 +19,18 @@ public class ReceMsg {
         final Channel  channel=connection.createChannel();
         channel.queueDeclare(QEUE_NAME, false, false, false, null);
 
-        channel.queueBind(QEUE_NAME,EXCHAGE_NAME,"good.add");
+        channel.queueBind(QEUE_NAME,EXCHAGE_NAME,"good.#");
 
         channel.basicQos(1);
-
         final Consumer consumer=new DefaultConsumer(channel){
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope,
                                        AMQP.BasicProperties properties, byte[] body) throws IOException {
 
                 String message = new String(body, "UTF-8");
-                System.out.println("Customer Received [1]'" + message + "'");
+                System.out.println("Customer Received [2]'" + message + "'");
                 try{
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
 
                 }catch (InterruptedException e){
                 }finally {

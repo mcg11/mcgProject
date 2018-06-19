@@ -8,18 +8,32 @@ import com.rabbitmq.client.Connection;
  */
 public class SendMsg {
 
-    private static String QEUE_NAME="testmq";
+//    private static String QEUE_NAME="testmq";
+
+    private static String EXCHAGE_NAME="test_exchange_topic";
 
     public static void main(String[] args)throws Exception{
         Connection connection=ConnectionUtils.getConnection();
 
         Channel channel=connection.createChannel();
 
-        channel.queueDeclare(QEUE_NAME,false,false,false,null);
+        channel.basicQos(1);
+        channel.exchangeDeclare(EXCHAGE_NAME,"topic");
 
-        String msg="hello rabbitmq!";
+        try {
+            channel.txSelect();
+//        for(int i=0;i<50;i++){
+            String msg = "hello rabbitmq!";
 
-        channel.basicPublish("",QEUE_NAME,null,msg.getBytes());
+            channel.basicPublish(EXCHAGE_NAME, "good.add", null, msg.getBytes());
+
+            channel.txCommit();
+
+//            Thread.sleep(i*20);
+//        }
+        }catch (Exception e){
+            channel.txRollback();
+        }
 
         channel.close();
         connection.close();

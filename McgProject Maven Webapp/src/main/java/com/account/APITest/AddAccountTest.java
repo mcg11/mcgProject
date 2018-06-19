@@ -49,9 +49,9 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
 
         // json数据
         JSONObject jsonObjAddAccount = new JSONObject();
-        jsonObjAddAccount.put("uid", "8098e4a0-5578-4d9a-b92b-f972daad51f6");
-        jsonObjAddAccount.put("trade_no", "WXPAY150893543656512053310000xianxiadakuan");
-        jsonObjAddAccount.put("total_fee", 404900);
+        jsonObjAddAccount.put("uid", "da10799b-34cf-beee-54d9-f563aaaae857");
+        jsonObjAddAccount.put("trade_no", "WXPAY150893543656512053310000xianxiadakuan1");
+        jsonObjAddAccount.put("total_fee", 100000);
         jsonObjAddAccount.put("biz_common", "zch_settlement");//
         // 账户充值业务类型
         // jsonObjAddAccount.put("description",
@@ -59,10 +59,10 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
         // +
         // " 账户充值");
         jsonObjAddAccount.put("description", "addAccount");
-        jsonObjAddAccount.put("city_code", "801000");
+        jsonObjAddAccount.put("city_code", "100002");
         jsonObjAddAccount.put("pay_type", "wx_ios_pay");
         jsonObjAddAccount.put("sys_source", "dz");
-        jsonObjAddAccount.put("order_id", "WXPAY150893543656512053310000xianxiadakuan");
+        jsonObjAddAccount.put("order_id", "WXPAY150893543656512053310000xianxiadakuan1");
         // 加密
         Map<String, String> resultMap = EncryptionUtil.encryptionWay(
                 jsonObjAddAccount.toString(), key_ziroom);
