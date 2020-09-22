@@ -43,21 +43,25 @@ String tradeNo = "";
 		JSONObject jsonObjFTobalanceAccount = new JSONObject();
 
 
-		jsonObjFTobalanceAccount.put("uid","1e61f46d-90a3-4550-9a4d-cd62e1034e02");
-		jsonObjFTobalanceAccount.put("total_fee", 100);
-		jsonObjFTobalanceAccount.put("biz_common", "contract_to_account");
-		jsonObjFTobalanceAccount.put("description", "bu_dan");
-		jsonObjFTobalanceAccount.put("tradeNo", "budan_ALAPP151238757830512809452440300");
+		jsonObjFTobalanceAccount.put("uid","37c7d070-ce18-45d1-f794-2abd288e987a");
+		jsonObjFTobalanceAccount.put("total_fee", 1000000);
+		jsonObjFTobalanceAccount.put("biz_common", "1");
+		jsonObjFTobalanceAccount.put("description", "补数据");
+		jsonObjFTobalanceAccount.put("tradeNo", "20190119142301226154787898122664804");
+		jsonObjFTobalanceAccount.put("business_type", "1");
+		jsonObjFTobalanceAccount.put("sys_source", "crm");
+		jsonObjFTobalanceAccount.put("uid_type", "kh");
 		// jsonObjFTobalanceAccount.put("description", TESTFALG +
         List<Map<String,String>> list=new ArrayList<Map<String,String>>();
         Map<String,String> map=new HashMap<String, String>();
-        map.put("order_id","ALAPP151238757830512809452440300");
-        map.put("total_free","972800");
+        map.put("order_id","20190119142301226154787898122664804");
+        map.put("total_free","1000000");
+//        map.put("bus_id","20180903001");
         list.add(map);
 
         jsonObjFTobalanceAccount.put("order_id",list);
 		// "用户冻结金额转账户余额");
-		jsonObjFTobalanceAccount.put("city_code", "100003"); // 加密
+		jsonObjFTobalanceAccount.put("city_code", "801000"); // 加密
 		Map<String, String> resultMap = EncryptionUtil.encryptionWay(
 				jsonObjFTobalanceAccount.toString(), key_ziroom);
 		String encryption = (String) resultMap.get("encryption");
@@ -76,7 +80,9 @@ String tradeNo = "";
 		// System.out.println(encryption3);
 
         String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/fTobalanceAccount.do";
-//		String refundUrl = "http://localhost:8080/account/fTobalanceAccount.do";
+//        String refundUrl = "http://account.t.ziroom.com/fTobalanceAccount.html";
+
+//        String refundUrl = "http://localhost:8083/account/fTobalanceAccount.do";
 		String url = refundUrl + encryption3;
 
 		System.out.println(url);

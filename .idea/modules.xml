@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/McgProject Maven Webapp/McgProject.iml" filepath="$PROJECT_DIR$/McgProject Maven Webapp/McgProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TianRuan/TianRuan.iml" filepath="$PROJECT_DIR$/../TianRuan/TianRuan.iml" />
     </modules>
   </component>
 </project>

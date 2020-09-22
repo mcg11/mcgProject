@@ -55,8 +55,9 @@ public class WhiteTipNotifyActionTest {
         param.put("data", biz.getData());
 
 		String url="/sign="+biz.getSign()+"&tradeType=05&data="+biz.getData()+"&charset=UTF-8&merchantCode=7000000006&version=1.0";
-//		String testUrl="http://jpayment.t.ziroom.com/ZRPaysPlatform/whiteNotify.htm";
-		String testUrl="http://localhost:8080/whiteNotify.htm";
+		String testUrl="http://jpayment.q.ziroom.com/ZRPaysPlatform/whiteNotify.htm";
+//		String testUrl="http://jpayment.t.ziroom.com/whiteNotify.htm";
+//		String testUrl="http://localhost:8080/whiteNotify.htm";
         InputStream resultContentInputStream = NetUtil.sendPostRequest(
                 testUrl, param);
         String resultContent = NetUtil.getTextContent(

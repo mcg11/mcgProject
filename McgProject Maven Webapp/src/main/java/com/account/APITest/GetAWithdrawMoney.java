@@ -43,7 +43,7 @@ public class GetAWithdrawMoney extends BaseControllerWebAppContextSetupTest {
 		// json数据
 		String uid;
 		InputStream resultContentInputStream = null;
-		String[] uids = {"b481df97-8c4e-4819-ac1b-fff265578935" };
+		String[] uids = {"3c44a32f-21d9-585b-0eb3-fc806354ba68" };
 
 			uid = uids[0];
 			JSONObject jsonObjGetADetail = new JSONObject();
@@ -51,7 +51,7 @@ public class GetAWithdrawMoney extends BaseControllerWebAppContextSetupTest {
 			jsonObjGetADetail.put("systemSource", "wz");
 		jsonObjGetADetail.put("pageNo", 1);
 		jsonObjGetADetail.put("pageSize", 1000);
-			jsonObjGetADetail.put("accountId", 50038765);
+//			jsonObjGetADetail.put("accountId", 50038765);
 			// 加密
 			Map<String, String> resultMap = EncryptionUtil.encryptionWay(
 					jsonObjGetADetail.toString(), key_ziroom);
@@ -63,8 +63,8 @@ public class GetAWithdrawMoney extends BaseControllerWebAppContextSetupTest {
 			System.out.println("加密前"+jsonObjGetADetail.toString());
 			System.out.println("加密参数"+encryption);
 
-			String refundUrl = "http://localhost:8083/account/withdrawMoney/getWithdrawCash.html";
-//        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/withdrawMoney/getWithdrawCash.do";
+//			String refundUrl = "http://localhost:8083/account/withdrawMoney/getWithdrawCash.html";
+        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/withdrawMoney/getWithdrawCash.do";
 
         resultContentInputStream = NetUtil.sendPostRequest(refundUrl,
 				resultMap);

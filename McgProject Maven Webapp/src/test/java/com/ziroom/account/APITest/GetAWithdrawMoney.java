@@ -51,7 +51,7 @@ public class GetAWithdrawMoney extends Exception {
 			uid = uids[0];
 			JSONObject jsonObjGetADetail = new JSONObject();
 			jsonObjGetADetail.put("uid", uid);
-			jsonObjGetADetail.put("systemSource", "crm");
+			jsonObjGetADetail.put("sys_source", "crm");
 		jsonObjGetADetail.put("pageNo", 1);
 		jsonObjGetADetail.put("pageSize", 10);
 			//jsonObjGetADetail.put("city_code", "801000");
@@ -66,7 +66,8 @@ public class GetAWithdrawMoney extends Exception {
 			System.out.println("加密前"+jsonObjGetADetail.toString());
 			System.out.println("加密参数"+encryption);
 
-			String refundUrl = "http://account.t.ziroom.com/withdrawMoney/getWithdrawCash.html";
+//			String refundUrl = "http://account.t.ziroom.com/withdrawMoney/getWithdrawCash.html";
+			String refundUrl = "http://localhost:8083//account/getABalanceList.do";
 		resultContentInputStream = NetUtil.sendPostRequest(refundUrl,
 				resultMap);
 

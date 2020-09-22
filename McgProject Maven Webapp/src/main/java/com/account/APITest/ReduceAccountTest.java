@@ -54,11 +54,11 @@ public class ReduceAccountTest extends BaseControllerWebAppContextSetupTest {
 
 		// json数据
 		JSONObject jsonObjReduceAccount = new JSONObject();
-		jsonObjReduceAccount.put("uid", "27464427-30cd-58f0-72de-cbd85bc5f7bd");
-		jsonObjReduceAccount.put("total_fee",359000);
+		jsonObjReduceAccount.put("uid", "1fde9c59-b988-464d-9bdd-9606626fa0ff");
+		jsonObjReduceAccount.put("total_fee",3476000);
 		jsonObjReduceAccount.put("city_code", "801000");
 
-		jsonObjReduceAccount.put("description", "budan");
+		jsonObjReduceAccount.put("description", "产品让转到广州");
 		jsonObjReduceAccount.put("pay_type", "zfb_pay");
 		jsonObjReduceAccount.put("biz_common", "pay_reduce_account");// pay_reduce_account
 		// 加密

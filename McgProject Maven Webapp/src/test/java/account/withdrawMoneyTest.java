@@ -30,8 +30,8 @@ public class withdrawMoneyTest {
 		obj.put("systemSource", systemSource);
 		Map<String, String> resultMap = EncryptionUtil.encryptionWay(
 				obj.toString(), "8w091ql5l2tt6qxj");
-		String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/withdrawMoney/getAllDetails.do?";
-//		String refundUrl = "http://localhost:8080/ZRAccount/account/withdrawMoney/getAllDetails.do?";
+//		String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/withdrawMoney/getAllDetails.do?";
+		String refundUrl = "http://localhost:8083/account/withdrawMoney/getAllDetails.do?";
 		InputStream resultContentInputStream = NetUtil.sendPostRequest(
 				refundUrl, resultMap);
 		String resultContent = NetUtil.getTextContent(resultContentInputStream,"UTF-8");

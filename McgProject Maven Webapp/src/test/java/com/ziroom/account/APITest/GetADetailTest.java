@@ -51,7 +51,7 @@ public class GetADetailTest extends Exception {
 		
 		JSONObject jsonObjGetADetail = new JSONObject();
 		jsonObjGetADetail.put("uid", "ae6bfa65-68ec-2707-4a1a-d0908f578b85");
-		jsonObjGetADetail.put("city_code", "801000");
+		jsonObjGetADetail.put("city_code", "5005");
 		jsonObjGetADetail.put("uid_type", "kh");
 		jsonObjGetADetail.put("sys_source", "");
 		jsonObjGetADetail.put("intercompany", "");
@@ -70,8 +70,8 @@ public class GetADetailTest extends Exception {
 		System.out.println("加密参数："+encryption);
 
 
-		String refundUrl = "http://account.t.ziroom.com/getADetailNew.html";
-//		String refundUrl = "http://localhost:8080/ZRAccount/account/getADetailNew.do";
+//		String refundUrl = "http://account.t.ziroom.com/getADetailNew.html";
+		String refundUrl = "http://localhost:8083/account/getADetail.do";
 		InputStream resultContentInputStream = NetUtil.sendPostRequest(refundUrl,
 				resultMap);
 

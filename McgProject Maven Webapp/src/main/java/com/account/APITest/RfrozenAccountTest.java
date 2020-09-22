@@ -40,16 +40,16 @@ public class RfrozenAccountTest extends BaseControllerWebAppContextSetupTest {
 		// json数据
 		JSONObject jsonObjRfrozenAccount = new JSONObject();
 		jsonObjRfrozenAccount
-				.put("uid", "6afbdb1a-03f0-4640-81f1-37a59db8d6aa");
-		jsonObjRfrozenAccount.put("total_fee", 1000000);
+				.put("uid", "750a50ea-0803-4a67-8663-c574f3f207e9");
+		jsonObjRfrozenAccount.put("total_fee", 49800);
 		jsonObjRfrozenAccount.put("biz_common", "frozen_to_reduce_web");
 		// jsonObjRfrozenAccount.put("description", TESTFALG + "消耗用户冻结金额");
 		jsonObjRfrozenAccount.put("pay_type", null);
-		jsonObjRfrozenAccount.put("city_code", 801000);
+		jsonObjRfrozenAccount.put("city_code", 320100);
         List<Map<String,String>> list=new ArrayList<Map<String,String>>();
         Map<String,String> map=new HashMap<String, String>();
-        map.put("order_id","WXAPP146603888896511528265801000");
-        map.put("total_free","878800");
+        map.put("order_id","WXAPP155064480610328410307320100");
+        map.put("total_free","49800");
         list.add(map);
 
 		jsonObjRfrozenAccount.put("order_id",list);

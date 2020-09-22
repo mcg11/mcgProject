@@ -6,14 +6,23 @@ import java.util.List;
 /**
  * Created by macg11 on 2018/4/18.
  */
-public class AtomicUtils {
+public class AtomicUtils extends CASDemo{
+
+
+
 
     public static void main(String[] args){
-        String aa="[3,4,5]";
-        List a = Arrays.asList(aa);
-        if(a.contains(3)){
-            System.out.println("包含");
-        }
+
     }
 
+    public int method1(int a){
+
+        return 1;
+    }
+    private int method1(long a,int b){
+        return 1;
+    }
+    private void method1(int a,int b,int c){
+
+    }
 }

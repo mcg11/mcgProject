@@ -5,6 +5,7 @@ package com.account.APITest;
 
 import com.ziroom.common.util.DateUtil;
 import com.ziroom.common.util.NetUtil;
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -49,20 +50,21 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
 
         // json数据
         JSONObject jsonObjAddAccount = new JSONObject();
-        jsonObjAddAccount.put("uid", "da10799b-34cf-beee-54d9-f563aaaae857");
-        jsonObjAddAccount.put("trade_no", "WXPAY150893543656512053310000xianxiadakuan1");
-        jsonObjAddAccount.put("total_fee", 100000);
-        jsonObjAddAccount.put("biz_common", "zch_settlement");//
+        jsonObjAddAccount.put("uid", "554a4acf-87cf-430b-a293-0fca2172dc74");
+        jsonObjAddAccount.put("trade_no", "budan_a85619554a5cb5_151shoudongbu");
+        jsonObjAddAccount.put("total_fee", 3476000);
+        jsonObjAddAccount.put("biz_common", "finance_add_account");//
         // 账户充值业务类型
         // jsonObjAddAccount.put("description",
         // TESTFALG
         // +
         // " 账户充值");
-        jsonObjAddAccount.put("description", "addAccount");
-        jsonObjAddAccount.put("city_code", "100002");
-        jsonObjAddAccount.put("pay_type", "wx_ios_pay");
-        jsonObjAddAccount.put("sys_source", "dz");
-        jsonObjAddAccount.put("order_id", "WXPAY150893543656512053310000xianxiadakuan1");
+        jsonObjAddAccount.put("description", "生活转到广州");
+        jsonObjAddAccount.put("city_code", "440100");
+        jsonObjAddAccount.put("pay_type", "finance_redPacket");
+        jsonObjAddAccount.put("sys_source", "finance");
+        jsonObjAddAccount.put("pay_time", "2019-01-14 17:06:44");
+//        jsonObjAddAccount.put("order_id", "budan_a85619554a5cb5_151ceshitixian");
         // 加密
         Map<String, String> resultMap = EncryptionUtil.encryptionWay(
                 jsonObjAddAccount.toString(), key_ziroom);
@@ -78,9 +80,9 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
 
         // System.out.println(encryption3);
 
-        //String refundUrl = "http://localhost:8080/account/addAccount.do";
-//		String refundUrl = "http://account.ziroom.com/addAccount.html";
-        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/addAccount.do";
+//        String refundUrl = "http://localhost:8083/account/addAccount.do";
+		String refundUrl = "http://account.q.ziroom.com/addAccount.html";
+//        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/addAccount.do";
         String url = refundUrl + encryption3;
         System.out.println(url);
 
@@ -89,6 +91,7 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
 
         String resultContent = NetUtil.getTextContent(resultContentInputStream,
                 "UTF-8");
+
         System.out.println(resultContent);
 
         // logger.info(encryption);
@@ -107,6 +110,11 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
         // + result.andReturn().getResponse().getContentAsString());
     }
     public static  void main(String args[]) {
+
+
+
+
+
         // 取出最后更新时间
         String startTime = "2017-08-29 10:20:00";
         logger.info("sync.wtpay.last.time：" + startTime);
@@ -137,5 +145,63 @@ public class AddAccountTest extends BaseControllerWebAppContextSetupTest {
                 e.printStackTrace();
             }
         }
+    }
+    /**
+     * 账户充值Test
+     *
+     * @throws Exception
+     */
+    @Test
+    public void addAccountFWFTest() throws Exception {
+
+        // 获取流水号
+        String tradeNo = "";
+        // json数据
+        JSONArray array=new JSONArray();
+
+        JSONObject jsonObjAddAccount = new JSONObject();
+        jsonObjAddAccount.put("uid", "1fde9c59-b988-464d-9bdd-9606626fa0ff");
+        jsonObjAddAccount.put("trade_no", "budan_aa5cb5_151shoudongbu");
+        jsonObjAddAccount.put("total_fee", 3476000);
+        jsonObjAddAccount.put("city_code", "440100");
+
+        array.add(jsonObjAddAccount);
+        jsonObjAddAccount = new JSONObject();
+        jsonObjAddAccount.put("uid", "1fde9c59-b988-464d-9bdd-9606626fa0ff");
+        jsonObjAddAccount.put("trade_no", "budanb5_151shoudongbu");
+        jsonObjAddAccount.put("total_fee", 3476000);
+        jsonObjAddAccount.put("city_code", "440100");
+        array.add(jsonObjAddAccount);
+        String aa=array.toString();
+        // 加密
+        Map<String, String> resultMap = EncryptionUtil.encryptionWay(
+                array.toString(), key_ziroom);
+        String encryption = (String) resultMap.get("encryption");
+        if (encryption.equals("")) {
+            logger.error((String) resultMap.get("error"));
+            return;
+        }
+
+        String encryption1 = encryption.replace("/", "%2F");
+        String encryption2 = encryption1.replace("+", "%2B");
+        String encryption3 = encryption2.replace("=", "%3D");
+
+        // System.out.println(encryption3);
+
+//        String refundUrl = "http://localhost:8083/account/addAccountFWF.do";
+		String refundUrl = "http://account.t.ziroom.com/addAccountFWF.html";
+//        String refundUrl = "http://10.16.35.97:8081/ZRAccount/account/addAccount.do";
+        String url = refundUrl + encryption3;
+        System.out.println(url);
+
+        InputStream resultContentInputStream = NetUtil.sendPostRequest(
+                refundUrl, resultMap);
+
+        String resultContent = NetUtil.getTextContent(resultContentInputStream,
+                "UTF-8");
+
+        System.out.println(resultContent);
+
+
     }
 }

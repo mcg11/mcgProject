@@ -48,12 +48,12 @@ public class PassAccountTest extends BaseControllerWebAppContextSetupTest {
 
 		// json数据
 		JSONObject jsonObjPassAccount = new JSONObject();
-		jsonObjPassAccount.put("uid", "1e66bb79-c56b-2b7a-27ba-5dceb83791b2");
-		jsonObjPassAccount.put("trade_no", "5fcfd32e29f3e0d6b7e41b6b4ed19172");
-		jsonObjPassAccount.put("total_fee", 100000);
+		jsonObjPassAccount.put("uid", "1fde9c59-b988-464d-9bdd-9606626fa0ff");
+		jsonObjPassAccount.put("trade_no", "5fcfd32e29f3e0d6b7e41b6b4ed19172shoubu");
+		jsonObjPassAccount.put("total_fee", 3476000);
 		jsonObjPassAccount.put("biz_common", "pay_to_account_pass");
-		// jsonObjPassAccount.put("description", TESTFALG + "充值消费");
-		jsonObjPassAccount.put("city_code", 100001);
+		 jsonObjPassAccount.put("description", "产品让转生活到广州");
+		jsonObjPassAccount.put("city_code", 801000);
 		jsonObjPassAccount.put("pay_type", "wx_ios_pay");
 		//jsonObjPassAccount.put("business_type","living_cost");
 		//jsonObjPassAccount.put("sys_source", "living_cost");
