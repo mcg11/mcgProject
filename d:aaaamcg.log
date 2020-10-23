@@ -1,1 +1,140 @@
-2018-04-24 14:57:15,289-[TS] WARN AMQP Connection 127.0.0.1:5672 com.rabbitmq.client.impl.ForgivingExceptionHandler 115 An unexpected connection driver error occured (Exception message: Socket closed)
+2020-10-17 13:57:52,066-[TS] DEBUG main org.apache.commons.beanutils.converters.BooleanConverter 353 Setting default value: false
+2020-10-17 13:57:52,069-[TS] DEBUG main org.apache.commons.beanutils.converters.BooleanConverter 140 Converting 'Boolean' value 'false' to type 'Boolean'
+2020-10-17 13:57:52,071-[TS] DEBUG main org.apache.commons.beanutils.converters.BooleanConverter 162     No conversion required, value is already a Boolean
+2020-10-17 13:57:52,073-[TS] DEBUG main org.apache.commons.beanutils.converters.ByteConverter 353 Setting default value: 0
+2020-10-17 13:57:52,073-[TS] DEBUG main org.apache.commons.beanutils.converters.ByteConverter 140 Converting 'Integer' value '0' to type 'Byte'
+2020-10-17 13:57:52,073-[TS] DEBUG main org.apache.commons.beanutils.converters.ByteConverter 171     Converted to Byte value '0'
+2020-10-17 13:57:52,074-[TS] DEBUG main org.apache.commons.beanutils.converters.CharacterConverter 353 Setting default value:  
+2020-10-17 13:57:52,075-[TS] DEBUG main org.apache.commons.beanutils.converters.CharacterConverter 140 Converting 'Character' value ' ' to type 'Character'
+2020-10-17 13:57:52,075-[TS] DEBUG main org.apache.commons.beanutils.converters.CharacterConverter 162     No conversion required, value is already a Character
+2020-10-17 13:57:52,075-[TS] DEBUG main org.apache.commons.beanutils.converters.DoubleConverter 353 Setting default value: 0
+2020-10-17 13:57:52,075-[TS] DEBUG main org.apache.commons.beanutils.converters.DoubleConverter 140 Converting 'Integer' value '0' to type 'Double'
+2020-10-17 13:57:52,076-[TS] DEBUG main org.apache.commons.beanutils.converters.DoubleConverter 171     Converted to Double value '0.0'
+2020-10-17 13:57:52,077-[TS] DEBUG main org.apache.commons.beanutils.converters.FloatConverter 353 Setting default value: 0
+2020-10-17 13:57:52,077-[TS] DEBUG main org.apache.commons.beanutils.converters.FloatConverter 140 Converting 'Integer' value '0' to type 'Float'
+2020-10-17 13:57:52,077-[TS] DEBUG main org.apache.commons.beanutils.converters.FloatConverter 171     Converted to Float value '0.0'
+2020-10-17 13:57:52,078-[TS] DEBUG main org.apache.commons.beanutils.converters.IntegerConverter 353 Setting default value: 0
+2020-10-17 13:57:52,079-[TS] DEBUG main org.apache.commons.beanutils.converters.IntegerConverter 140 Converting 'Integer' value '0' to type 'Integer'
+2020-10-17 13:57:52,079-[TS] DEBUG main org.apache.commons.beanutils.converters.IntegerConverter 162     No conversion required, value is already a Integer
+2020-10-17 13:57:52,080-[TS] DEBUG main org.apache.commons.beanutils.converters.LongConverter 353 Setting default value: 0
+2020-10-17 13:57:52,080-[TS] DEBUG main org.apache.commons.beanutils.converters.LongConverter 140 Converting 'Integer' value '0' to type 'Long'
+2020-10-17 13:57:52,080-[TS] DEBUG main org.apache.commons.beanutils.converters.LongConverter 171     Converted to Long value '0'
+2020-10-17 13:57:52,080-[TS] DEBUG main org.apache.commons.beanutils.converters.ShortConverter 353 Setting default value: 0
+2020-10-17 13:57:52,081-[TS] DEBUG main org.apache.commons.beanutils.converters.ShortConverter 140 Converting 'Integer' value '0' to type 'Short'
+2020-10-17 13:57:52,081-[TS] DEBUG main org.apache.commons.beanutils.converters.ShortConverter 171     Converted to Short value '0'
+2020-10-17 13:57:52,083-[TS] DEBUG main org.apache.commons.beanutils.converters.BigDecimalConverter 353 Setting default value: 0.0
+2020-10-17 13:57:52,083-[TS] DEBUG main org.apache.commons.beanutils.converters.BigDecimalConverter 140 Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-10-17 13:57:52,085-[TS] DEBUG main org.apache.commons.beanutils.converters.BigDecimalConverter 162     No conversion required, value is already a BigDecimal
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.BigIntegerConverter 353 Setting default value: 0
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.BigIntegerConverter 140 Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.BigIntegerConverter 162     No conversion required, value is already a BigInteger
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.BooleanConverter 353 Setting default value: false
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.BooleanConverter 140 Converting 'Boolean' value 'false' to type 'Boolean'
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.BooleanConverter 162     No conversion required, value is already a Boolean
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.ByteConverter 353 Setting default value: 0
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.ByteConverter 140 Converting 'Integer' value '0' to type 'Byte'
+2020-10-17 13:57:52,086-[TS] DEBUG main org.apache.commons.beanutils.converters.ByteConverter 171     Converted to Byte value '0'
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.CharacterConverter 353 Setting default value:  
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.CharacterConverter 140 Converting 'Character' value ' ' to type 'Character'
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.CharacterConverter 162     No conversion required, value is already a Character
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.DoubleConverter 353 Setting default value: 0
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.DoubleConverter 140 Converting 'Integer' value '0' to type 'Double'
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.DoubleConverter 171     Converted to Double value '0.0'
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.FloatConverter 353 Setting default value: 0
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.FloatConverter 140 Converting 'Integer' value '0' to type 'Float'
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.FloatConverter 171     Converted to Float value '0.0'
+2020-10-17 13:57:52,087-[TS] DEBUG main org.apache.commons.beanutils.converters.IntegerConverter 353 Setting default value: 0
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.IntegerConverter 140 Converting 'Integer' value '0' to type 'Integer'
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.IntegerConverter 162     No conversion required, value is already a Integer
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.LongConverter 353 Setting default value: 0
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.LongConverter 140 Converting 'Integer' value '0' to type 'Long'
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.LongConverter 171     Converted to Long value '0'
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.ShortConverter 353 Setting default value: 0
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.ShortConverter 140 Converting 'Integer' value '0' to type 'Short'
+2020-10-17 13:57:52,088-[TS] DEBUG main org.apache.commons.beanutils.converters.ShortConverter 171     Converted to Short value '0'
+2020-10-17 13:57:52,089-[TS] DEBUG main org.apache.commons.beanutils.converters.StringConverter 353 Setting default value: 
+2020-10-17 13:57:52,089-[TS] DEBUG main org.apache.commons.beanutils.converters.StringConverter 140 Converting 'String' value '' to type 'String'
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Z@43556938
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'boolean[]' value '[Z@43556938' to type 'boolean[]'
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a boolean[]
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [B@7a46a697
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'byte[]' value '[B@7a46a697' to type 'byte[]'
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a byte[]
+2020-10-17 13:57:52,095-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [C@6d86b085
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'char[]' value '[C@6d86b085' to type 'char[]'
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a char[]
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [D@3abfe836
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'double[]' value '[D@3abfe836' to type 'double[]'
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a double[]
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [F@77afea7d
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'float[]' value '[F@77afea7d' to type 'float[]'
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a float[]
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [I@532760d8
+2020-10-17 13:57:52,096-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'int[]' value '[I@532760d8' to type 'int[]'
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a int[]
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [J@5f8ed237
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'long[]' value '[J@5f8ed237' to type 'long[]'
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a long[]
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [S@47089e5f
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'short[]' value '[S@47089e5f' to type 'short[]'
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a short[]
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.math.BigDecimal;@68f7aae2
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@68f7aae2' to type 'BigDecimal[]'
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a BigDecimal[]
+2020-10-17 13:57:52,097-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.math.BigInteger;@4c3e4790
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@4c3e4790' to type 'BigInteger[]'
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a BigInteger[]
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Boolean;@5679c6c6
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Boolean[]' value '[Ljava.lang.Boolean;@5679c6c6' to type 'Boolean[]'
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Boolean[]
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Byte;@19e1023e
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Byte[]' value '[Ljava.lang.Byte;@19e1023e' to type 'Byte[]'
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Byte[]
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Character;@64b8f8f4
+2020-10-17 13:57:52,098-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Character[]' value '[Ljava.lang.Character;@64b8f8f4' to type 'Character[]'
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Character[]
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Double;@3cd1f1c8
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Double[]' value '[Ljava.lang.Double;@3cd1f1c8' to type 'Double[]'
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Double[]
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Float;@1996cd68
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Float[]' value '[Ljava.lang.Float;@1996cd68' to type 'Float[]'
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Float[]
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Integer;@555590
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Integer[]' value '[Ljava.lang.Integer;@555590' to type 'Integer[]'
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Integer[]
+2020-10-17 13:57:52,099-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Long;@424c0bc4
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Long[]' value '[Ljava.lang.Long;@424c0bc4' to type 'Long[]'
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Long[]
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Short;@16b4a017
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Short[]' value '[Ljava.lang.Short;@16b4a017' to type 'Short[]'
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Short[]
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.String;@2a3046da
+2020-10-17 13:57:52,100-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'String[]' value '[Ljava.lang.String;@2a3046da' to type 'String[]'
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a String[]
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.lang.Class;@198e2867
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Class[]' value '[Ljava.lang.Class;@198e2867' to type 'Class[]'
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Class[]
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.util.Date;@3ada9e37
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Date[]' value '[Ljava.util.Date;@3ada9e37' to type 'Date[]'
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Date[]
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.util.Calendar;@3419866c
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'Calendar[]' value '[Ljava.util.Calendar;@3419866c' to type 'Calendar[]'
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a Calendar[]
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.io.File;@68fb2c38
+2020-10-17 13:57:52,101-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'java.io.File[]' value '[Ljava.io.File;@68fb2c38' to type 'java.io.File[]'
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a java.io.File[]
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.sql.Date;@2eafffde
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@2eafffde' to type 'java.sql.Date[]'
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a java.sql.Date[]
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.sql.Time;@6842775d
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@6842775d' to type 'java.sql.Time[]'
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a java.sql.Time[]
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.sql.Timestamp;@64cee07
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@64cee07' to type 'java.sql.Timestamp[]'
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a java.sql.Timestamp[]
+2020-10-17 13:57:52,102-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 353 Setting default value: [Ljava.net.URL;@6c629d6e
+2020-10-17 13:57:52,103-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 140 Converting 'java.net.URL[]' value '[Ljava.net.URL;@6c629d6e' to type 'java.net.URL[]'
+2020-10-17 13:57:52,103-[TS] DEBUG main org.apache.commons.beanutils.converters.ArrayConverter 162     No conversion required, value is already a java.net.URL[]
+2020-10-17 13:57:52,111-[TS] DEBUG main org.apache.commons.beanutils.BeanUtils 242 BeanUtils.copyProperties(com.java8.Book1@24273305, com.java8.Book@5b1d2887)
+2020-10-17 13:57:52,118-[TS] DEBUG main org.apache.commons.beanutils.converters.StringConverter 140 Converting 'String' value '123456' to type 'String'
+2020-10-17 13:57:52,121-[TS] DEBUG main org.apache.commons.beanutils.converters.StringConverter 140 Converting 'String' value 'happygiraffe' to type 'String'
